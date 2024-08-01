@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <!-- Header -->
+   <nav class="header-atas">
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+
+        <section class="nav-container">
+            <a class="nav-item" href="#home">Home</a>
+            <a class="nav-item" href="#my-package">Our Package</a>
+            <a class="nav-item" href="#myForm">Call Us</a>
+        </section>
+   </nav>
+   <!-- Main content -->
+   <main >
+        <article id="home" class="main-title">
+            
+            <h1>Your Trusted Travel Agent's</h1>
+            
+            <p>Your happiness is our happiness.</p>
+        </article>
+
+        <section class="main-content">
+            <article class="main-content-item">
+
+                <div class="item-icon">
+                    <img src="https://plus.unsplash.com/premium_photo-1683134112431-df53d2ed141c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 1">
+                    <img src="https://images.unsplash.com/photo-1508952817440-fefa6a425539?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 2">
+                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1396&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 3">
+                </div>
+                
+                    <div class="container">
+                        <div class="card">
+                            <!-- <div class="image-container"></div> -->
+                            <p class="quote">"Vacation made fun with my Travel Agent."</p>
+                            <div class="author">
+                                <img src="assets/ikon-kontak.png" alt="Author">
+                                <span>James Rugbe</span>
+                            </div>
+                            
+                            <div class="benefits">
+                                <div class="benefit">
+                                    <span class="benefit-number">1</span>
+                                    <p class="benefit-text">Customized Itineraries: Enjoy personalized travel plans that match your interests and preferences.</p>
+                                </div>
+                                <div class="benefit">
+                                    <span class="benefit-number">2</span>
+                                    <p class="benefit-text">Expert Support: Benefit from insider knowledge and 24/7 assistance from our travel specialists.</p>
+                                </div>
+                                <div class="benefit">
+                                    <span class="benefit-number">3</span>
+                                    <p class="benefit-text">Stress-Free Booking: Experience a hassle-free booking process with competitive pricing and secure reservations.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                </article>
+                <!-- Form -->
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <p>Sales will contact You 1x24 hours after We receive the data.</p>
+                    <form id="myForm" >
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                    
+                        <div>
+                            What are you interested in?
+                            <select id="interest" aria-placeholder="Select Option?">
+                                <option hidden>Select Option?</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Bali">Bali</option>
+                                <option value="Surabaya">Surabaya</option>
+                            </select>
+                            <span id="interestError" class="error"></span>
+                        </div>
+                        <br>
+                        <button type="submit">Send</button>
+                    </form>
+                    <div id="toast" class="toast">Form submitted successfully!</div>
+                </div>
+        </section>
+
+            <article id="my-package" class="main-package">
+                <header>
+                    <h1>Our Package</h1>
+                </header>
+            </article>
+        
+        <div class="package">
+            <div class="package-item">
+              <h2>Bali</h2>
+              <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+            </div>
+            <div class="package-item">
+              <h2>Japan</h2>
+              <p>Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+            </div>
+            <div class="package-item">
+              <h2>Singapore</h2>
+              <p>This description supports and extends the bulletpoint above.</p>
+            </div>
+          </div>
+      
+          <div class="package">
+            <div class="package-item">
+              <h2>Bandung</h2>
+              <p>This description supports and extends the bulletpoint above.</p>
+            </div>
+            <div class="package-item">
+              <h2>Surabaya</h2>
+              <p>This description supports and extends the bulletpoint above.</p>
+            </div>
+            <div class="package-item">
+              <h2>Third Feature</h2>
+              <p>This description supports and extends the bulletpoint above.</p>
+            </div>
+          </div>
+
+          <div class="closing-statement">
+            <h2>Traveling with Us</h2>
+            <p>"Ready to embark on your next adventure? Let us make your travel dreams come true! With our personalized services and unbeatable packages, exploring the world has never been easier. Contact us today to start planning your unforgettable journey!" </p>
+            <a href="#" class="button">CALL TO ACTION</a>
+          </div>
+      
+        </div>
+      <!-- Footer -->
+        <footer class="footer">
+          <p>&copy; 2024 Raphaelinooo <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+        </footer>
+
+   </main>
+   
+</body>
+</html>
